@@ -7,7 +7,7 @@
 .bg-color-white{
     background-color: white;
 }
-.text-color-red{
+.text-color-red{ 
     color: red;
 }
 .bg-color-grey{
@@ -159,6 +159,9 @@
 }
 .card{
     transition: 0.5s;
+    margin: 20px;
+    margin: auto;
+    width: max-content;
 }
 .card:hover{
     transform: scale(1.1);
@@ -186,27 +189,6 @@
     width: 85%;
 }
 
-/* .nav-item a{
-    position: relative;
-    margin: 5px;
-}
-.nav-item a:hover{
-    text-decoration: solid !important;
-} */
-/* .nav-item a::after{
-    content: "";
-    width: 50px;
-    height: 2px;
-    background-color: red;
-    position: absolute;
-    bottom: 0;
-    right: 7px;
-    display: none;
-
-} */
-/* .nav-item:hover .nav-item a::after{
-    display: block;
-} */
 
 .back-icon{
     background-color: rgb(194, 82, 82);
@@ -257,7 +239,6 @@
 .input-two input{
     width: 98%;
 }
-
 
 .form input:focus{
     outline: none;
@@ -420,27 +401,61 @@
     }
 }
 @media (min-width:991px) and (max-width:1200px){
+    .hero h1 , .hero p{
+        margin: auto;
+    }
     .hero div img{
         width: 400px !important;
+        text-align: center;
     }
+    /* .form .button{
+        margin-left: 400px;
+    } */
+    /* .form{
+        width: 90%;
+    }
+    .form input{
+        width: 93%; }
+
+    .form textarea{
+        width: 93%;
+
+
     .input-one{
-        width: 100%;
+        width: 100% !important;
     }
     .input-one input{
         width: 100%;
     }
     .input-two input{
-        width: 93% !important;
-    }
-    .form textarea{
-        width: 93%;
-
-    }
+        width: 98%;
+    }  */
 
 }
 @media (min-width:700px) and (max-width:990px){
     .hero div img{
-        width: 500px !important;
+        text-align: center;
+    }
+    .card{
+        margin: 20px auto;
+    }
+    .image-hero-parent{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .hero h1{
+        text-align: center;
+    }
+    .hero p{
+        text-align: center;
+        width: 400px;
+        margin: auto;
+
+    }
+    .but-watch{
+        margin: auto;
+        width: max-content;
     }
     .content-hero h1{
         margin-top: 30px !important;
@@ -465,18 +480,29 @@
     .images-meal img{
         width: 90%;
     }
+
+
+
+
 }
 @media (min-width:300px) and (max-width:699px){
     .hero div img{
         width: 320px !important;
         margin-top: 20px;
     }
+    .image-hero-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
     .but-watch{
         margin-left: 50px;
         width: 200px;
+        margin: auto;
     }
     .but-watch button{
-        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
     .content-hero h1{
         margin-top: 40px !important;
@@ -487,6 +513,7 @@
     .content-hero p{
         width: 300px;
         text-align: center;
+        margin: auto;
     }
     .chefs img{
         width: 90%;
@@ -498,8 +525,9 @@
         width: 100%;
     }
     .card{
-        margin-left: 20px;
-        margin-top: 10px;
+        /* margin-left: 20px;
+        margin-top: 40px; */
+        margin: 20px auto;
     }
     .form-footer{
         width: 100%;
@@ -511,13 +539,6 @@
         width: 200px;
         margin-left: 70px;
     }
-    /* .form input{
-        width: 95% !important;
-    }
-    .input-two{
-        width: 90%;
-        margin-right: 0;
-    } */
     .input-one{
         width: 100%;
     }
