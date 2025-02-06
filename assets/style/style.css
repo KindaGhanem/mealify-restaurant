@@ -369,7 +369,7 @@
     margin-top: 10px !important;
 }
 .two-two{
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 30px;
 }
 .list-under-footer ul li a{
@@ -400,6 +400,15 @@
         transform:rotate(-2deg);
     }
 }
+@media (min-width:991px) and (max-width:1200px){
+.BigScreen{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+}
+
+
 @media (min-width:991px) and (max-width:1200px){
     .hero h1 , .hero p{
         margin: auto;
